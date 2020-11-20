@@ -1,0 +1,179 @@
+﻿.search
+{
+    display:block;
+    height: 90px;
+    width: 1250px;
+    background-color: #182642;
+   
+}
+h3
+{
+    color:White;
+    text-align:center;
+   
+    
+}
+#button5
+{
+    background-color:white;
+    border:2px groove gray;
+    width:18%;
+    height:35%;
+    border-radius:10px;
+   
+    
+}
+#text1
+{
+   
+    background-color:White;
+    width:25%;
+    height:35%;
+    border-radius:10px;
+}
+
+* 
+{
+    margin: 2px 0 0 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   
+}
+nav {
+    
+    height: 70px;
+    width: 100%;
+}
+
+
+
+nav ul {
+     float: right;
+    margin-right: 60px;
+}
+
+    nav ul li {
+        display: inline-block;
+        margin: 10px 2px;
+    }
+
+        nav ul li a{
+            color: black;
+            font-weight: 500;
+            font-size: 20px;
+            padding: 7px 13px;
+            text-decoration:none;
+            font-family:calibri;
+         
+           
+        }
+      
+
+ a:hover {
+    background:white;
+    color:Orange;
+    Text-decoration:underline;
+   
+    
+}
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 7px 13px;
+   border: none;
+   font-weight: 500;
+   font-size: 20px;
+   text-decoration:none;
+    font-family:calibri;
+  
+}
+
+.dropdown {
+  position: relative;
+        
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  font-family:calibri;
+  padding:7px 13px;
+   text-decoration: none;
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  text-align:center;
+}
+
+.dropdown-content a:hover {background-color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+.checkbtn {
+    
+    font-size: 30px;
+    color: black;
+    float: left;
+    line-height: 70px;
+    margin-left: 40px;
+    cursor:pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    
+       nav ul li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        margin-left: 40px;
+    }
+    ul {
+        position: fixed;
+        width: 30%;
+        height: 100%;
+        background-color:White;
+        top: 70px;
+        left: -100%;
+        text-align:left;
+       
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 10px;
+        line-height: 20px;
+    }
+
+        nav ul li a,.dropdown-content a {
+            font-size: 15px;
+        }
+
+    a:hover {
+        background: white;
+       
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+   
+   
